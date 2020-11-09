@@ -1,0 +1,20 @@
+html
+  include partials/head
+
+  body
+    h1 Kim's Convenience
+    div(class="season")= `Season ${season.number}`
+    table
+      thread
+        tr
+          th No.
+          th Title
+          th Director
+        for episodes in season.episodes
+          tr
+            td(class="number")= episodes.number
+            td(class="title")= episodes.title
+            td(class="director")= episodes.director
+            
+          tr
+            td(colspan=3)= episodes.synopsi

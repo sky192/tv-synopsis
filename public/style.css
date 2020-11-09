@@ -1,0 +1,53 @@
+body {
+  font-size: 20px;
+}
+
+h2, ul {
+  margin-left: 30px;
+}
+
+a,
+a:active
+a:hover
+a:visited {
+  color: rgb(74, 153, 255);
+  text-decoration: none;
+}
+
+.season {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(74, 153, 255);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 6px;
+}
+
+th, td {
+  padding: 6px;
+}
+
+.number {
+  text-align: center;
+  width: 7%;
+}
+
+.title, .director {
+  padding-left: 25px;
+}
